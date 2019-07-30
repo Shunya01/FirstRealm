@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		4FBF949022EFCFFF00D9FFB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FBF948E22EFCFFF00D9FFB7 /* Main.storyboard */; };
 		4FBF949222EFD00500D9FFB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FBF949122EFD00500D9FFB7 /* Assets.xcassets */; };
 		4FBF949522EFD00500D9FFB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FBF949322EFD00500D9FFB7 /* LaunchScreen.storyboard */; };
+		4FBF94A122EFDF5500D9FFB7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBF94A022EFDF5500D9FFB7 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4FBF949122EFD00500D9FFB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FBF949422EFD00500D9FFB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FBF949622EFD00500D9FFB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FBF94A022EFDF5500D9FFB7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		54E14A2C2E788D6F54C2C852 /* Pods_FirstRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirstRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58F1F0073BEE05C87DABC04D /* Pods-FirstRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstRealm.release.xcconfig"; path = "Target Support Files/Pods-FirstRealm/Pods-FirstRealm.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,6 +45,7 @@
 		4FBF947E22EFCFFF00D9FFB7 = {
 			isa = PBXGroup;
 			children = (
+				4FBF94A022EFDF5500D9FFB7 /* Item.swift */,
 				4FBF948922EFCFFF00D9FFB7 /* FirstRealm */,
 				4FBF948822EFCFFF00D9FFB7 /* Products */,
 				BC9890A7CC15D8E4164CBF6D /* Pods */,
@@ -85,7 +88,6 @@
 				4E4171525877CC936FBD74F0 /* Pods-FirstRealm.debug.xcconfig */,
 				58F1F0073BEE05C87DABC04D /* Pods-FirstRealm.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -205,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FBF948D22EFCFFF00D9FFB7 /* ViewController.swift in Sources */,
+				4FBF94A122EFDF5500D9FFB7 /* Item.swift in Sources */,
 				4FBF948B22EFCFFF00D9FFB7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
